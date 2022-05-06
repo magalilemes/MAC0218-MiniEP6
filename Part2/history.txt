@@ -1,0 +1,2 @@
+docker image build . -t ex2
+docker run --name server -p 8080:80 -v ${PWD}/pages:/usr/src/pages -d ex2
