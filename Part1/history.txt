@@ -1,0 +1,2 @@
+docker image build . -t ex1
+docker container run --name server -p 8080:80 -d ex1
